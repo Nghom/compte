@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html id='myhtml'>
+<head>
+  <title>Compter en fançais</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/w3.css">
+  
+  <script src="js/Unite.js" charset="utf-8"></script>
+  <script src="js/Dizaine1.js" charset="utf-8"></script>
+  <script src="js/Dizaine2.js" charset="utf-8"></script>
+  <script src="js/Codon.js" charset="utf-8"></script>
+  <script src="js/Convertir.js" charset="utf-8"></script>
+
+
+</head>
+<body style="background-color:#e6e6e6">
+  <pre>
+    <p></p>
+  </pre>
+  <div class="w3-col m2 l2">
+    <pre>
+      <p></p>
+    </pre>
+  </div>
+
+<div id="card" class="w3-card-24 w3-margin w3-col  m8 l9 w3-grey" >
+    <header class="w3-container w3-dark-grey" style="width:100%; text-align:center">
+      <h1 style="font-family:'Tangerine', serif;">Compter</h1>
+    </header>
+    <div class="w3-container">
+      <form class="w3-container" name="myForm">
+        <p><label class="w3-label w3-text-black">Nombre</label></p>
+        <input class="w3-input w3-animate-input" value="0" min="0" id="num" type="number" required="" style="width:30%; background: transparent;">
+        <p><button class="w3-btn " style="background-color: #00061a;" onclick="convertir()">Convertir</button></p>
+    </div>
+  </div>
+<p id="result"></p>
+</body>
+</html>
